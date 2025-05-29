@@ -1,0 +1,36 @@
+Arrays
+
+# Each variable is stored in a memory location, using RAM
+# Each element in the list is converted into binary form.
+# each single 1/0 is a bit. 8 bits make one byte.
+# We use 4 bytes to an integer number.
+# Each byte is stored in/on a memory location.
+
+When looking by index:
+The first element in the array has a particular memory address.
+stock_prices[0] -> 0x00500
+When we do index of 2, what happens is:
+stock_prices[2] -> 0x00500 + 2*sizeof(integer(in bytes))
+
+Because only one operation is performed, irresspective of the lists length or the objects position,
+The Big O complexity is O(1). Constant time opearion.
+
+When looking by value and not index:
+you can run a simple for loop with a conditional statement. This will be O(n)
+
+To print all prices:
+Array traversal: Also O(n)
+
+To add or remove an element at a certain position from an array, the big O complexity is O(n). 
+This is because, the memory location for each element will have to change because of the distortion.
+
+Static and dynamic arrays:
+In static array, there is a specific size your array must be. You have a fixed size, and it will allocate memory only for that fixed size.
+
+
+Linked Lists:
+Unlike in an array where each memory location follows each other, here they can be placed in different locations, but, each element, has the memory location of the next element.
+
+Insert/delete element at the beginning - O(1)
+Insert/delete element at the end - O(n)
+
