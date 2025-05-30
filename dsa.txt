@@ -1,5 +1,7 @@
 Arrays
 
+An array is a reference data type.
+
 # Each variable is stored in a memory location, using RAM
 # Each element in the list is converted into binary form.
 # each single 1/0 is a bit. 8 bits make one byte.
