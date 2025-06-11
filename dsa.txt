@@ -36,3 +36,17 @@ Unlike in an array where each memory location follows each other, here they can 
 Insert/delete element at the beginning - O(1)
 Insert/delete element at the end - O(n)
 
+
+Dictionaries/Objects implement hash tables - This is the underlying data structure.
+{'6-Mar': 310.0, '7-Mar': 340.0, '8-Mar': 380.0, '9-Mar': 302.0, '10-Mar': 297.0, '11-Mar': 323.0}
+Consider the above. there will be a list of say, a fixed sixe. 
+It will take march 6, and then map it to specific element in the list, 
+and to get the index of that element in the list, we use a hash function.
+
+The hash function is converting the string key into the index of an array.\
+
+There are different ways of implementing hash function, one way is using ASCII numbers.
+
+In hashmap, 
+Lookup by key is O(1) on average
+Insertion/Deletion is O(1) on average
