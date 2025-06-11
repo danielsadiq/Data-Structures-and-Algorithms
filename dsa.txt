@@ -50,3 +50,8 @@ There are different ways of implementing hash function, one way is using ASCII n
 In hashmap, 
 Lookup by key is O(1) on average
 Insertion/Deletion is O(1) on average
+
+Collisions in hashmaps
+This occurs when two keys are trying to store the values at the same location.
+To solve this, we can use chaining.
+We can also use linear probing.
